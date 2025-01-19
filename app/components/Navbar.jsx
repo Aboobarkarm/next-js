@@ -13,7 +13,9 @@ export default function Navbar() {
       quality={100}
       placeholder="blur"
       />
-    <h1>BotMind</h1>
+    <h1 className='border-b-4 rounded-sm border-blue-700'>
+      BotMind
+    </h1>
       <Link href="/">Dashboard</Link>
       <Link href="/tickets">Tickets</Link>
       <Link href="/tickets/create">Create</Link>
