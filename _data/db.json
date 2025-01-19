@@ -1,0 +1,31 @@
+{
+  "tickets": [
+    {
+      "title": "Bug in user registration",
+      "body": "There is an issue with our user registration system that is preventing new users from signing up on the platform. When a user fills out the registration form and clicks the submit button, they are met with a server error message that says, ‘500 Internal Server Error.’ This issue started occurring after a recent deployment, suggesting that the bug might be in the new code. Our testing team has reviewed the logs and noticed that the database isn’t storing the user input properly, which might be related to a missing validation rule or broken API call. This is a serious problem because it stops new users from accessing our services and could potentially harm our reputation. Several customers have reported this issue, and we need to resolve it immediately. Our top priority should be to fix the bug, test the registration process thoroughly, and ensure it’s working seamlessly. Please assign this task to a skilled developer who can address it urgently.",
+      "level": "medium",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "title": "Feature request: Dark mode",
+      "body": "I would like to request the addition of a dark mode feature to our dashboard. Many users prefer working in a dark mode interface because it is easier on the eyes, especially when working in low-light conditions. Dark mode has become a standard feature in many applications, and adding it to our platform would significantly enhance the user experience. The feature should include an option to switch between light and dark themes, and the user’s preference should be saved for future sessions. Additionally, the dark mode should be implemented across all sections of the dashboard, including the navigation bar, forms, and tables. This feature isn’t urgent, but it would be a valuable addition to our platform and could set us apart from competitors. I suggest starting with a prototype to gather feedback from a small group of users before rolling it out to everyone. Let me know if you need further input on this request.",
+      "level": "low",
+      "email": "mike.jones@example.com"
+    },
+    {
+      "id": "4",
+      "title": "Login page crash",
+      "body": "The login page is experiencing a critical issue where it crashes whenever users enter incorrect credentials. Instead of displaying an error message that indicates the username or password is incorrect, the page reloads and shows a blank screen. This problem is affecting a large number of users who occasionally mistype their credentials and need a proper error message to guide them. The issue appears to be related to the form validation logic or an unhandled exception in the backend authentication process. It’s essential to investigate this problem, identify the root cause, and implement a fix to prevent the page from crashing. This issue is urgent because it disrupts the user experience and could lead to frustration and loss of customers. Please assign a developer to debug the login process and test it thoroughly to ensure that error handling works as intended. Let me know when this issue has been resolved.",
+      "level": "high",
+      "email": "sarah.brown@example.com"
+    },
+    {
+      "id": "5",
+      "title": "Slow performance on mobile",
+      "body": "The performance of our website on mobile devices has been noticeably slow. Pages take a long time to load, and there’s a delay in rendering images and interactive elements. This problem has been reported by several users who primarily access our platform through their smartphones. Upon testing, we noticed that the issue is more prominent on older devices and slower network connections. This indicates that the problem might be related to unoptimized assets, large file sizes, or inefficient code. Improving mobile performance should be a priority because a significant portion of our traffic comes from mobile users. I suggest compressing images, minifying JavaScript and CSS files, and implementing lazy loading for non-critical elements. Additionally, we should consider conducting a performance audit using tools like Google Lighthouse to identify specific areas for improvement. Please provide a timeline for addressing this issue and share progress updates regularly.",
+      "level": "medium",
+      "email": "emily.davis@example.com"
+    }
+  ]
+}
